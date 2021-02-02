@@ -1,0 +1,172 @@
+@media () {
+    {
+
+    }
+}
+
+body {
+    background-color: #eee;
+}
+#header-img {
+    width: 20%;
+    position: fixed;
+    top: 15px;
+    z-index: 1;
+}
+
+#nav-bar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: #eee;
+    padding-bottom: 25px;
+}
+.nav-link {
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 15%;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#main {
+    text-align: center;
+    display: block;
+    padding-top: 2%;
+}
+
+#submit {
+    margin: 10px 0;
+    background-color: #F1C40F;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 2%;
+    padding: 5px 10px;
+}
+
+#submit:hover {
+    background-color: orange;
+}
+
+section h3 {
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 28%;
+    text-align: justify;
+}
+
+section p {
+    margin-top: 0;
+    margin-left: 28%;
+    margin-right: 24%;
+    text-align: justify;
+}
+
+iframe {
+    display: block;
+    margin-left: 29%;
+    margin-top: 3%;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+}
+
+.tenor, .bass, .valve {
+    border: 1px solid #000;
+    margin-right: 2%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.tenor p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.bass p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.valve p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.trombone {
+    background-color: #ddd;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+button {
+    margin: 10px 0;
+    background-color: #F1C40F;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 2%;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.privacy ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 75%;
+    margin-top: 2%;
+    margin-bottom: 5px;
+}
+
+.privacy li {
+    display: inline;
+    margin: 10px;
+}
+
+footer p {
+    margin-left: 75%;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #DDDDDD;
+    margin-left: 16%;
+    margin-right: 17%;
+    padding-bottom: 10px;
+}
+
+/* .fa-truck::before {
+    font-family: 'FontAwesome';
+    content: '\f0d1';
+    color: orange;
+    position: flex;
+    margin-right: 55%;
+} */
+
